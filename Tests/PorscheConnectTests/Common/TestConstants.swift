@@ -1,13 +1,6 @@
 import Foundation
 
-@testable import PorscheConnect
 
-let kDefaultTestTimeout: TimeInterval = 10
-let kBlankString = ""
-let kBlankData: Data = kBlankString.data(using: .utf8)!
-let kTestServerPort = 8080
-
-// MARK: - Test Objects & Value Types
 
 let kTestPorschePortalAuth = AuthResponse(
   accessToken: "zVb3smCN32iOslsoXa7XIYPrenGz",
